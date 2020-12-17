@@ -1,4 +1,4 @@
-baseURL: http://example.org
+baseURL: https://nervous-saha-a0a2c2.netlify.app
 title: Hugo Zzo Theme
 theme: hugo-theme-zzo
 defaultContentLanguage: en
