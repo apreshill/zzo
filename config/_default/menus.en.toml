@@ -1,4 +1,10 @@
 [[main]]
+  identifier = "resume"
+  name = "whatever"
+  url = "resume"
+  weight = 8
+
+[[main]]
   identifier = "about"
   name = "About"
   url = "about"
@@ -21,7 +27,7 @@
   name = "Gallery"
   url = "gallery"
   weight = 4
-    
+
 [[main]]
   parent = "gallery"
   name = "Cartoon"
