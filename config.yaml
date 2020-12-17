@@ -1,0 +1,57 @@
+baseURL: http://example.org
+title: Hugo Zzo Theme
+theme: hugo-theme-zzo
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: yes
+hasCJKLanguage: yes
+summaryLength: 70
+buildFuture: yes
+copyright: '&copy;{year}, All Rights Reserved'
+timeout: 10000
+enableEmoji: yes
+paginate: 13
+rssLimit: 100
+enableGitInfo: no
+googleAnalytics: ''
+markup:
+  goldmark:
+    renderer:
+      hardWraps: yes
+      unsafe: yes
+      xHTML: yes
+  highlight:
+    codeFences: yes
+    lineNos: yes
+    lineNumbersInTable: yes
+    noClasses: no
+  tableOfContents:
+    endLevel: 4
+    ordered: no
+    startLevel: 2
+outputs:
+  home:
+    - HTML
+    - RSS
+    - SearchIndex
+  section:
+    - HTML
+    - RSS
+    - SearchIndex
+  taxonomy:
+    - HTML
+    - RSS
+    - SearchIndex
+  taxonomyTerm:
+    - HTML
+    - RSS
+    - SearchIndex
+outputFormats:
+  SearchIndex:
+    baseName: index
+    isPlainText: yes
+    mediaType: application/json
+    notAlternative: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
